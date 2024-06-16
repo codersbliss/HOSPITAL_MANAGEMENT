@@ -27,9 +27,9 @@ const userSchema = new mongoose.Schema({
   },
   aadhar: {
     type: String,
-    required: [true, "NIC Is Required!"],
-    minLength: [13, "NIC Must Contain Only 13 Digits!"],
-    maxLength: [13, "NIC Must Contain Only 13 Digits!"],
+    required: [true, "aadhar Is Required!"],
+    minLength: [12, "aadhar Must Contain Only 12 Digits!"],
+    maxLength: [12, "aadhar Must Contain Only 12 Digits!"],
   },
   dob: {
     type: Date,
