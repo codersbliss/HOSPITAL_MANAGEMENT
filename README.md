@@ -34,7 +34,7 @@ The Hospital Management System is a comprehensive software solution designed to 
 
 ## Usage
 
-- Navigate to http://localhost:3000 in your web browser.
+- Navigate to http://localhost:4000 in your web browser.
 - Use the interface to manage patients, staff, appointments, and billing.
   
 ## Technologies Used
