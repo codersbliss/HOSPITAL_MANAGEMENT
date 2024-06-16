@@ -17,3 +17,15 @@ The Hospital Management System is a comprehensive software solution designed to 
 1. Clone the repository:
    ```bash
    git clone https://github.com/codersbliss/HOSPITAL_MANAGEMENT.git
+
+1. Navigate to the project directory:
+   ```bash
+   cd HOSPITAL_MANAGEMENT
+
+1. Install the required dependencies:
+   ```bash
+   npm install
+   
+1. Run the application:
+   ```bash
+   npm start
