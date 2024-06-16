@@ -11,7 +11,7 @@ const AddNewAdmin = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [nic, setNic] = useState("");
+  const [aadhar, setNic] = useState("");
   const [dob, setDob] = useState("");
   const [gender, setGender] = useState("");
   const [password, setPassword] = useState("");
@@ -24,7 +24,7 @@ const AddNewAdmin = () => {
       await axios
         .post(
           "https://hospital-management-ebqw.onrender.com/api/v1/user/admin/addnew",
-          { firstName, lastName, email, phone, nic, dob, gender, password },
+          { firstName, lastName, email, phone, aadhar, dob, gender, password },
           {
             withCredentials: true,
             headers: { "Content-Type": "application/json" },
@@ -90,7 +90,7 @@ const AddNewAdmin = () => {
             <input
               type="number"
               placeholder="aadhar"
-              value={nic}
+              value={aadhar}
               onChange={(e) => setNic(e.target.value)}
             />
             <input

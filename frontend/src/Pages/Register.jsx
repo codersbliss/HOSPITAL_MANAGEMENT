@@ -11,7 +11,7 @@ const Register = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [nic, setNic] = useState("");
+  const [aadhar, setNic] = useState("");
   const [dob, setDob] = useState("");
   const [gender, setGender] = useState("");
   const [password, setPassword] = useState("");
@@ -24,7 +24,7 @@ const Register = () => {
       await axios
         .post(
           "https://hospital-management-ebqw.onrender.com/api/v1/user/patient/register",
-          { firstName, lastName, email, phone, nic, dob, gender, password, role: "Patient"},
+          { firstName, lastName, email, phone, aadhar, dob, gender, password, role: "Patient"},
           {
             withCredentials: true,
             headers: { "Content-Type": "application/json" },
@@ -93,8 +93,8 @@ const Register = () => {
           <div>
             <input
               type="number"
-              placeholder="NIC"
-              value={nic}
+              placeholder="aadhar"
+              value={aadhar}
               onChange={(e) => setNic(e.target.value)}
             />
             <input
