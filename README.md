@@ -39,7 +39,7 @@ The Hospital Management System is a comprehensive software solution designed to 
   
 ## Technologies Used
 
-- Frontend: React, Bootstrap
+- Frontend: React
 - Backend: Node.js, Express
 - Database: MongoDB
 
