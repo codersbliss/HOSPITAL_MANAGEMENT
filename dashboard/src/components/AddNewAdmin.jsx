@@ -11,7 +11,7 @@ const AddNewAdmin = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [aadhar, setNic] = useState("");
+  const [aadhar, setAadhar] = useState("");
   const [dob, setDob] = useState("");
   const [gender, setGender] = useState("");
   const [password, setPassword] = useState("");
@@ -38,7 +38,7 @@ const AddNewAdmin = () => {
           setLastName("");
           setEmail("");
           setPhone("");
-          setNic("");
+          setAadhar("");
           setDob("");
           setGender("");
           setPassword("");
@@ -91,7 +91,7 @@ const AddNewAdmin = () => {
               type="number"
               placeholder="aadhar"
               value={aadhar}
-              onChange={(e) => setNic(e.target.value)}
+              onChange={(e) => setAadhar(e.target.value)}
             />
             <input
               type={"date"}
