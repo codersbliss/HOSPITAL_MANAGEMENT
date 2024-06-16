@@ -89,7 +89,7 @@ const AddNewAdmin = () => {
           <div>
             <input
               type="number"
-              placeholder="NIC"
+              placeholder="aadhar"
               value={nic}
               onChange={(e) => setNic(e.target.value)}
             />
